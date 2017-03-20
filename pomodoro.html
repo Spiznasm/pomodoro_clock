@@ -8,17 +8,27 @@
 
 <body>
 <div class="container">
-    
+
     <div class="settings">
-        
-        <div id="session"></div>
-        <div id="break"></div>
+
+        <div id="session">Session<br>
+          <div id="sess_up">+</div>
+          <div id="sess_min"></div>
+          <div id="sess_down">-</div>
+        </div>
+        <div id="break">Break<br>
+          <div id="break_up">+</div>
+          <div id="break_min"></div>
+          <div id="break_down">-</div>
+        </div>
+
     </div>
-    <div id="clock"><script>Date().getTime()</script></div>
+    <div id="default">Default Values</div>
+    <div id="clock"></div>
     <div class="controls">
-        <div id="play"></div>
-        <div id="stop"></div>
-        <div id="reset"></div>
+        <div id="timer_go"><img id="play_stop" src="play.png" alt="play" height=100 px></div>
+
+        <div id="reset"><img src="reset.png" alt="reset" height=100 px></div>
     </div>
 </div>
 </body>

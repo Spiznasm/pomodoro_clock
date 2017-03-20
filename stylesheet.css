@@ -1,9 +1,47 @@
+html {
+  background-color: black;
+}
+
 .container {
     /*vertical-align: middle;*/
     margin-left: auto;
     margin-right: auto;
     display: block;
+    text-align: center;
+    font-size: 24px;
     max-width: 600px;
     min-width: 300px;
     padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: grey;
+}
+
+.settings{
+  /*text-align: center;*/
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+#session, #break{
+  display: inline-block;
+  margin:10px;
+
+}
+
+#session div, #break div {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+#clock {
+  font-size: 64px;
+  padding:20px;
+}
+
+.controls div{
+  display: inline-block;
 }
